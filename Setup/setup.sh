@@ -1,8 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/bash
-pkg update -y && pkg upgrade -y
-su -c 'setenforce 0'
-time apt install ruby pv toilet tsu git wget screenfetch python figlet -y
-gem install lolcat
+pkg update -y && pkg upgrade -y;
+su -c 'setenforce 0';
+time apt install ruby pv toilet tsu git wget screenfetch python figlet -y;
+gem install lolcat;
 wget https://raw.githubusercontent.com/harvieno/TeamBacot/master/Source/sudo > /dev/null 2>&1
 pkg install ncurses-utils
 cat sudo > /data/data/com.termux/files/usr/bin/sudo

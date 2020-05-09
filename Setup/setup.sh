@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-pkg update && pkg upgrade -y
+pkg update -y && pkg upgrade -y
 su -c 'setenforce 0'
 time apt install ruby pv toilet tsu git wget screenfetch python figlet -y
 gem install lolcat

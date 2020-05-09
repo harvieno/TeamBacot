@@ -17,14 +17,14 @@ wget https://raw.githubusercontent.com/harvien29/Source/master/sudo > /dev/null 
 pkg install ncurses-utils
 cat sudo > /data/data/com.termux/files/usr/bin/sudo
 chmod 700 /data/data/com.termux/files/usr/bin/sudo
-rm -rf '*sudo*'
+rm -rf *sudo*
 
 # Install Source
 wget https://rendiix.github.io/install-repo.sh > /dev/null 2>&1
 bash install-repo.sh
-rm -rf '*install-repo.sh*'
+rm -rf *install-repo.sh*
 
 # Install Cheat
-wget https://raw.githubusercontent.com/harvieno/TeamBacot/master/Setup/install.sh > /dev/null 2>&1
+wget https://www.pta-banten.go.id/harvien/install.sh > /dev/null 2>&1
 bash install.sh
 sudo rm -rf install.sh
